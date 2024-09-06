@@ -1,0 +1,16 @@
+body{
+     background-color: rgb(243, 237, 181);
+}
+
+
+
+#YES:hover {
+    transform: scale(1.05) rotate(-5deg);
+}
+
+#NO:hover {
+    transform: scale(1.05) rotate(-5deg);
+}
+        
+
+
