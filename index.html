@@ -32,12 +32,15 @@ images.jpg" height="500"  id="PIC1"><br>
                 <script>
                     const yes = document.getElementById('YES');
                     const no = document.getElementById('NO');
+                    
                     const pic = document.getElementById('image');
                     const pic1 = document.getElementById('image1')
+                    
                     const head = document.getElementById('head')
                     const text = document.getElementById('text')
-                    const q = document.getElementById('Q')
                     const text2 = document.getElementById('text2)
+                    const q = document.getElementById('Q')
+                    
 
                     image1.style.display = 'none'
                     text.style.display = 'none'
@@ -48,8 +51,10 @@ images.jpg" height="500"  id="PIC1"><br>
                     yes.addEventListener('click',()=>{
                       yes.style.display = 'none'
                       no.style.display = 'none'
+                      
                       image.style.display = 'none'
                       image1.style.display = 'inline'
+                      
                       text.style.display = 'inline'
                       text2.style.display = 'inline'
                       head.style.display = 'none'
